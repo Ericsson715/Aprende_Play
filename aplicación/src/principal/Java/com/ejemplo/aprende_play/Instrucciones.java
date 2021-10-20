@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Instrucciones extends AppCompatActivity {
-
+//Mariano y axol
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
