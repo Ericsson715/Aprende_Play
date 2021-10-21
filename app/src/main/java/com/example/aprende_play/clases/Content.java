@@ -7,49 +7,57 @@ public class Content {
         String cadena = "";
         switch (N_Pregunta) {
             case 1:
-                cadena = "El COVID-19, coronavirus o “virus con corona”, es un pequeño microorganismo nuevo para los seres humanos." +
-                        "inusuales.\n" +
-                        "• Por este motivo, la enfermedad que produce, aunque es similar a la gripa, puede ser más fuerte que otras enfermedades respiratorias que se suelen presentar en los diferentes momentos del año. " +
-                        "Al ser nueva, nuestros cuerpos no se encuentran preparados para ella, por esto las autoridades sanitarias han pedido que se tomen precauciones con el fin de evitar al máximo que sean muchos los afectados\n" +
+                cadena = "A medida que transcurre el tiempo, la pandemia por coronavirus-2019\n" +
+                        "(COVID-19) afecta negativamente a la sociedad." +
+                        "Las familias con un hijo,\n" +
+                        "hija o familiar con un trastorno del neurodesarrollo como el Trastorno del\n" +
+                        "Espectro Autista (TEA) " +
+                        "son particularmente vulnerables a las medidas de\n" +
+                        "distanciamiento físico y podrían mostrar mayores problemas de ansiedad\n" +
+                        "y angustia secundarios a la complejidad en el manejo dentro del hogar que\n" +
+                        "conllevan las personas con esta condición.\n" +
 
-                        "les impide predecir o entender las acciones de otras personas.";
+                        "Por este motivo, creemos de\n" +
+                        "suma importancia brindar algunas recomendaciones para todos los\n" +
+                        "padres, madres y cuidadores de personas con dicha condición, durante\n" +
+                        "este periodo de emergencia sanitaria. ";
 
 
                 ;
                 break;
             case 2:
-                cadena = "•Fiebre de difícil control, mayor a 37,5 por más de 3 días\n" +
-                        "\n" +
-                        "°Tos\n" +
-                        "\n" +
-                        "°Dificultad para respirar\n" +
-                        "\n" +
-                        "°Fatiga\n" +
-                        "\n" +
-                        "°Malestar general\n" +
-                        "\n" +
-                        "°Secreción y goteo nasal."
+                cadena = "1.- PERMANEZCA CALMADO Y TRANSMITA TRANQUILIDAD.\n" +
+                        "Aunque no nos demos cuenta, las personas con TEA pueden reaccionar a\n" +
+                        "su estado emocional y a la forma o tono de sus conversaciones. Por lo tanto,\n" +
+                        "es importante proyectar una actitud de calma y tranquilidad durante esta\n" +
+                        "situación de emergencia. \n\n" +
 
-                      ;
+                        "2.- APOYE LA COMPRENSIÓN CON AYUDAS VISUALES Y NARRATIVAS\n" +
+                        "SOCIALES.\n" +
+                        "Para apoyar a las personas con TEA que entiendan sobre COVID-19, la\n" +
+                        "comunicación es mejor cuando se combina con ayudas visuales o\n" +
+                        "narrativas (historias simples que explican una situación social). Estas\n" +
+                        "estrategias le permitirán a la persona con TEA la oportunidad de procesar\n\n" +
+
+                        "3.- PROPORCIONAR ESTRUCTURA Y RUTINAS.\n" +
+                        "Las personas con TEA funcionan mejor cuando se les proporciona una\n" +
+                        "rutina estructurada que les permite anticipar lo que sucederá cada día. En\n" +
+                        "la medida de lo posible, siga las rutinas previamente establecidas\n" +
+                        "relacionadas con las actividades de la vida diaria (sueño, alimentación,\n" +
+                        "tareas y juego). Un horario visual ayudará a su hijo a comprender la nueva\n" +
+                        "estructura de su rutina diaria en el hogar. Es apropiado que el tiempo de\n" +
+                        "exposición a pantallas digitales sea limitado dentro del horario diario. \n\n" +
+
+                        "4.- PROMOVER EL CONTACTO CON LA FAMILIA.\n" +
+                        "El mantener contacto con los seres queridos a través de redes telefónicas o\n" +
+                        "video llamadas es favorable, puesto que les permite continuar las\n" +
+                        "relaciones sociales con los demás. Aún cuando inicialmente podría no\n" +
+                        "interesarle dicha interacción, el buscar favorecerla, es una estrategia\n" +
+                        "recomendada. Recuerde que el distanciamiento físico no es lo mismo que\n" +
+                        "el distanciamiento social." ;
+
+
                 break;
-            case 3:
-                cadena = "El virus se trasmite cuando una persona enferma tose o estornuda y expulsa partículas del virus que entran en contacto con otras personas, directamente o a través de superficies. "
-
-                        ;
-                break;
-
-                case 4:
-                    cadena = "¿Cómo prevenirlo?\n" +
-                            "°Lávate las manos correctamente, con agua y jabón.\n" +
-                            "\n" +
-                            "°Evita el contacto cercano con personas enfermas\n" +
-                            "\n" +
-                            "°Al estornudar, cúbrete con la parte interna del codo\n" +
-                            "\n" +
-                            "°Si tienes síntomas de resfriado, quédate en casa y usa tapabocas\n" +
-                            "\n";
-                    break;
-
             default:
                 cadena = "Opcion no valida";
                 break;
