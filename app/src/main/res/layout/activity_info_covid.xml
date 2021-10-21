@@ -7,60 +7,81 @@
     android:background="@drawable/fondover"
     tools:context=".info_covid">
 
-    <LinearLayout
+
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
-        >
+        android:layout_height="wrap_content">
 
-<androidx.core.widget.NestedScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <ImageView
-            android:id="@+id/imageView18"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            app:srcCompat="@drawable/covid"
-            android:layout_marginTop="20sp"
-            android:layout_marginBottom="10sp"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/c1"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:onClick="selected"
-            app:srcCompat="@drawable/que_es" />
-
-        <ImageView
-            android:id="@+id/c2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:onClick="selected"
-            app:srcCompat="@drawable/sintomas" />
-
-        <ImageView
-            android:id="@+id/c3"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:onClick="selected"
-            app:srcCompat="@drawable/transmision" />
-
-        <ImageView
-            android:id="@+id/c4"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:onClick="selected"
-            app:srcCompat="@drawable/prevencion" />
-
-    </LinearLayout>
-</androidx.core.widget.NestedScrollView>
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                app:srcCompat="@drawable/covid" />
 
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bangers"
+                android:gravity="center_horizontal"
+                android:text="descubre como afecta EL COVID 19 a los niños con autismo"
+                android:textAlignment="center"
+                android:textColor="#FBFCFC"
+                android:textSize="28sp"></TextView>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F9F7F7" />
+
+
+            <Button
+                android:id="@+id/c1"
+                android:layout_width="366dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_fondo_color"
+                android:backgroundTint="@color/md_green_700"
+                android:fontFamily="@font/bangers"
+                android:foreground="?selectableItemBackground"
+                android:text="Introducción"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                />
+
+
+            <Button
+                android:id="@+id/c2"
+                android:layout_width="366dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_fondo_color"
+                android:backgroundTint="@color/md_green_700"
+                android:elevation="5dp"
+                android:fontFamily="@font/bangers"
+                android:foreground="?selectableItemBackground"
+                android:text="¿que hacer?"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
 
 </RelativeLayout>

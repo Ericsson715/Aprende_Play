@@ -32,13 +32,7 @@ public class info_covid extends AppCompatActivity {
                 case R.id.c2:
                     info.putString("Pregunta", Content.Pregunta(2));
                     break;
-                case R.id.c3:
-                    info.putString("Pregunta", Content.Pregunta(3));
-                    break;
 
-                case R.id.c4:
-                    info.putString("Pregunta", Content.Pregunta(4));
-                    break;
             }
             i = new Intent(this, Resp.class);
             if (i != null) {

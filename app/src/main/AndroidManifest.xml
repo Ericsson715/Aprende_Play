@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".Reintento"
-            android:screenOrientation="landscape"
-            android:exported="true" />
-        <activity
             android:name=".Instrucciones"
             android:exported="true" />
+        <activity
+            android:name=".Reintento"
+            android:exported="true"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Juego2"
             android:exported="true" />
