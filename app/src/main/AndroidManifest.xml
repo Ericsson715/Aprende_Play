@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".Premios"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            />
+        <activity
             android:name=".Instrucciones"
             android:exported="true" />
         <activity

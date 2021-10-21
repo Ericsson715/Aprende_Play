@@ -35,4 +35,9 @@ public class Video2 extends AppCompatActivity {
     }
 
 
+    public void premio(View view) {
+        Intent p = new Intent(Video2.this,Premios.class);
+        startActivity(p);
+
+    }
 }

@@ -39,6 +39,7 @@
             android:foreground="?selectableItemBackground"
             android:text="¡¡¡Reclamar premio!!!"
             android:textColor="#fff"
+            android:onClick="premio"
             android:textSize="20sp" />
 
         <Button
