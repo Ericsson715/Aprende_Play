@@ -25,7 +25,7 @@
             android:onClick="URL"
             android:text="conoce clima.org"
             android:textColor="#fff"
-            android:textSize="20sp" />
+            android:textSize="21sp" />
 
     </LinearLayout>
 </RelativeLayout>
