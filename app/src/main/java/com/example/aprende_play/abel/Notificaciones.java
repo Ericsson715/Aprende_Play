@@ -31,12 +31,13 @@ public class Notificaciones extends AppCompatActivity  {
                     startActivity(z);
                     break;
                 case R.id.idPremiun:
-                    Toast.makeText(this, "Estamos en Mantenimiento", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Esperalo proximamente", Toast.LENGTH_SHORT).show();
                     break;
 
             }
 
     }
+
 
 
 }

@@ -11,12 +11,7 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical"
     android:orientation="vertical">
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="288dp"
-        android:layout_height="317dp"
-        app:srcCompat="@drawable/memorama2"
-        android:layout_gravity="center"/>
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -29,6 +24,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/barra" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="288dp"
+        android:layout_height="317dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/lavarmanos2" />
+
+
 
     <ImageView
         android:id="@+id/imageView8"
